@@ -1,0 +1,12 @@
+name: Shadow Sync (Push from A)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    uses: negedng/shadow-sync/.github/workflows/shadow-forward.yml@main
+    secrets: inherit

@@ -1,0 +1,12 @@
+name: Shadow Sync (Pull from B)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    uses: negedng/shadow-sync/.github/workflows/shadow-sync.yml@main
+    secrets: inherit

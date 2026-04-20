@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {
+      "name": "backend",
+      "a": { "remote": "origin", "dir": "backend" },
+      "b": { "remote": "backend-repo", "url": "https://github.com/negedng/sht4-backend.git", "dir": "" }
+    }
+  ],
+  "trailers": { "replayed": "Shadow-replayed", "seed": "Shadow-seed" },
+  "gitConfigOverrides": {
+    "core.autocrlf": "false",
+    "core.safecrlf": "false",
+    "core.precomposeunicode": "true",
+    "core.quotepath": "false"
+  },
+  "maxBuffer": 52428800,
+  "shadowBranchPrefix": "shadow"
+}

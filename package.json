@@ -1,0 +1,14 @@
+{
+  "name": "sht4-main",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "setup": "cross-env SHADOW_CONFIG=./shadow-config.json tsx node_modules/shadow-sync/shadow-setup.ts",
+    "sync": "cross-env SHADOW_CONFIG=./shadow-config.json tsx node_modules/shadow-sync/shadow-sync.ts"
+  },
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "shadow-sync": "github:negedng/shadow-sync",
+    "tsx": "^4.21.0"
+  }
+}
